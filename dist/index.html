@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Matter physics in TS </title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+      <div id="game">
+        <div id="gui">
+          <div id="score">Score : <span id="score_display"></span> / Box counter : <span id="box_counter"></div></div>
+        </div>
+        <div id="game_over">
+          <div id="score_wrapper">
+            Ah! Toren is omgevallen of je hebt de grond geraakt! <br/><br/>
+            Je eind score : <br/><br/> <span id="score_display_2"></span>
+          </div>
+        </div>
+      </div>
+      <script src="node_modules/matter-js/build/matter.min.js"></script>
+      <script src='js/game.js'></script>
+  </body>
+</html>
